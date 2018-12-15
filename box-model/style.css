@@ -1,0 +1,20 @@
+/* 
+Key Concepts: Padding, Border, Margin, box-sizing, width, height
+*/
+
+.box-a {
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 30px; /* creates space within a box */
+    /* padding and border are factored in to final size of box */
+    margin-bottom: 20px; /* creates space between boxes */
+    width: 200px; /* sets width */
+    height: 150px; /* sets height */
+    box-sizing: border-box; /* adjusts size to meet height and width specs */
+}
+
+.box-b {
+    background-color: lightcoral;
+    width: 200px; /* sets width */
+    height: 150px; /* sets height */
+}
