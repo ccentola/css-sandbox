@@ -1,0 +1,134 @@
+html {
+    background-color: #869960;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+}
+
+header {
+    padding-top: 20px;
+    color: #617140;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+header p {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 85%;
+    color: #999999;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* site nav */
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav a {
+    display: block;
+    text-decoration: none;
+    color: #617140;
+    padding: 10px 20px;
+    border: 3px solid #e5e9dc;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color: #e5e9dc;
+}
+/* end site nav */
+
+/* banner overlay */
+.image-banner img {
+    display: block;
+}
+.image-banner {
+    position: relative;
+}
+.banner-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    background-color: #000;
+    opacity: .7;
+    padding: 5px 15px;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.content-area {
+    border-top: 3px solid #e5e9dc;
+    border-bottom: 3px solid #e5e9dc;
+}
+
+.main-area {
+    width: 66%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.sidebar {
+    width: 34%;
+    float: left;
+    background-color: #e5e9dc;
+    /* padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 20px 40px 20px 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+}
+
+/* clearfix method */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
